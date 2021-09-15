@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Launch rofi with custom configuration
+
+    rofi -show drun \
+    -display-drun "Search " \
+    -xoffset 5 \
+    -yoffset -46 \
+    -location 7 \
+    -icon-theme "Papirus" \
+    -show-icons \
+    -font "Noto Sans 11" \
+    -kb-cancel 'Control_L+Shift_L+F11','Escape' \
+    -theme ~/.config/tint2/theme.rasi
+
+#/usr/share/rofi/themes/Arc-Dark.rasi
+
+#~/.config/tint2/Launcher_2.rasi
+
+
+
+# echo $(cat /run/user/1000/rofi.pid) > ~/rofi_pid.txt
+#-color-enabled true \
+#-color-window "#303145,#303145,#303145" \
+#-color-normal "#303145,#e0e0e0,#303145,#303145,#e45566" \
+#-color-active "#303145,#e45566,#303145,#303145,#e45566" \
+#-color-urgent "#303145,#e45566,#303145,#303145,#e45566"
+#    -xoffset 5 \
+#    -yoffset -46 \
+#    -location 7 \
+#    -color-enabled true \
+#    -color-window "#303145,#303145,#303145" \
+#    -color-normal "#303145,#e0e0e0,#303145,#303145,#e45566" \
+#    -color-active "#303145,#e45566,#303145,#303145,#e45566" \
+#    -color-urgent "#303145,#e45566,#303145,#303145,#e45566"
+
+# Theming help
+# color window = background, border, separator
+# color normal = background, foreground, background-alt, highlight-background, highlight-foreground
+# color active = background, foreground, background-alt, highlight-background, highlight-foreground
+# color urgent = background, foreground, background-alt, highlight-background, highlight-foreground
